@@ -14,7 +14,7 @@ export default () => ({ // eslint-disable-line
   headline: 'China rules the waves',
 
   // summary === standfirst (Summary is what the content API calls it)
-  summary: 'Political language is designed to make lies sound truthful' +
+  summary: 'Political language is designed to make lies sound truthful ' +
            'and murder respectable, and to give an appearance of solidity to pure wind',
 
   topic: {
