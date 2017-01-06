@@ -9,23 +9,22 @@ export default () => ({ // eslint-disable-line
 
   // To set an exact publish date do this:
   //       new Date('2016-05-17T17:11:22Z')
-  publishedDate: new Date(),
+  publishedDate: new Date('2017-01-10T05:30:00Z'),
 
   headline: 'China rules the waves',
 
   // summary === standfirst (Summary is what the content API calls it)
-  summary: 'Political language is designed to make lies sound truthful ' +
-           'and murder respectable, and to give an appearance of solidity to pure wind',
+  summary: 'Standfirst to come here - lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
 
   topic: {
     name: 'Shipping',
-    url: '/foo',
+    url: 'https://www.ft.com/companies/shipping',
   },
 
-  relatedArticle: {
-    text: 'Related article »',
-    url: 'https://en.wikipedia.org/wiki/Politics_and_the_English_Language',
-  },
+  // relatedArticle: {
+  //   text: 'Related article »',
+  //   url: 'https://en.wikipedia.org/wiki/Politics_and_the_English_Language',
+  // },
 
   mainImage: {
     title: '',
@@ -39,7 +38,7 @@ export default () => ({ // eslint-disable-line
   // if array of authors, url is optional
   byline: [
     { name: 'James Kynge', url: '/foo/bar' },
-    { name: 'Author Two' },
+    { name: 'Chris Campbell', url: '/foo/bar'  },
   ],
 
   // Appears in the HTML <title>
