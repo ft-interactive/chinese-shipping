@@ -1,8 +1,17 @@
 @import 'o-colors/main';
 @import 'components/core/main';
 
+.graphicWidth
+	{
+	max-width: 760px;
+	}
 
-#ig-Top-50-ports-Top_50_port_1220
-{
-	max-width: 800px;
-}
+.mainMapWidth
+	{
+	max-width: 1600px;
+	}
+
+.o-typography-caption
+	{
+		margin-bottom: 0px;
+	}

@@ -11,14 +11,14 @@ export default () => ({ // eslint-disable-line
   //       new Date('2016-05-17T17:11:22Z')
   publishedDate: new Date('2017-01-10T05:30:00Z'),
 
-  headline: 'China rules the waves',
+  headline: 'FT investigation: How China rules the waves',
 
   // summary === standfirst (Summary is what the content API calls it)
-  summary: 'Standfirst to come here - lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
+  summary: 'Beijing has spent billions expanding its commercial operations to secure sea lanes and establish itself as a maritime power',
 
   topic: {
-    name: 'Shipping',
-    url: 'https://www.ft.com/companies/shipping',
+    name: 'China???',
+    url: 'https://www.ft.com/???',
   },
 
   // relatedArticle: {
@@ -38,7 +38,11 @@ export default () => ({ // eslint-disable-line
   // if array of authors, url is optional
   byline: [
     { name: 'James Kynge', url: '/foo/bar' },
+    { name: 'Amy Kazmin', url: '/foo/bar'  },
+    { name: 'Farhan Bokhari', url: '/foo/bar'  },
     { name: 'Chris Campbell', url: '/foo/bar'  },
+
+
   ],
 
   // Appears in the HTML <title>
