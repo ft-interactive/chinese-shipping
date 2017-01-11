@@ -9,23 +9,22 @@ export default () => ({ // eslint-disable-line
 
   // To set an exact publish date do this:
   //       new Date('2016-05-17T17:11:22Z')
-  publishedDate: new Date(),
+  publishedDate: new Date('2017-01-10T05:30:00Z'),
 
-  headline: 'China rules the waves',
+  headline: 'FT investigation: How China rules the waves',
 
   // summary === standfirst (Summary is what the content API calls it)
-  summary: 'Political language is designed to make lies sound truthful ' +
-           'and murder respectable, and to give an appearance of solidity to pure wind',
+  summary: 'Beijing has spent billions expanding its ports network to secure sea lanes and establish itself as a maritime power',
 
   topic: {
-    name: 'Shipping',
-    url: '/foo',
+    name: 'The Big Read',
+    url: 'https://www.ft.com/comment/the-big-read',
   },
 
-  relatedArticle: {
-    text: 'Related article »',
-    url: 'https://en.wikipedia.org/wiki/Politics_and_the_English_Language',
-  },
+  // relatedArticle: {
+  //   text: 'Related article »',
+  //   url: 'https://en.wikipedia.org/wiki/Politics_and_the_English_Language',
+  // },
 
   mainImage: {
     title: '',
@@ -38,8 +37,12 @@ export default () => ({ // eslint-disable-line
   // Byline can by a plain string, markdown, or array of authors
   // if array of authors, url is optional
   byline: [
-    { name: 'James Kynge', url: '/foo/bar' },
-    { name: 'Author Two' },
+    { name: 'James Kynge', url: 'https://www.ft.com/comment/columnists/james-kynge' },
+    { name: 'Chris Campbell', url: 'https://www.ft.com/stream/authorsId/YjEwZjcxNDktMGNkYy00MzE4LThjYjgtNTY4NDFmNmY2MWRj-QXV0aG9ycw=='  },
+    { name: 'Amy Kazmin', url: 'https://www.ft.com/stream/authorsId/Q0ItMDAwMDc5Mw==-QXV0aG9ycw=='  },
+    { name: 'Farhan Bokhari', url: 'https://www.ft.com/stream/authorsId/Q0ItMDAwMDYyNw==-QXV0aG9ycw=='  },
+
+
   ],
 
   // Appears in the HTML <title>
