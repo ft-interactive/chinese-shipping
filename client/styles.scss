@@ -1,5 +1,6 @@
 @import 'o-colors/main';
 @import 'components/core/main';
+@import 'o-grid/main';
 
 .graphicWidth
 	{
@@ -15,4 +16,9 @@
 .o-typography-caption
 	{
 		margin-bottom: 0px;
+	}
+
+.picWidth
+	{
+	max-width: 760px;
 	}
