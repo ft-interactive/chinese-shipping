@@ -14,11 +14,11 @@ export default () => ({ // eslint-disable-line
   headline: 'FT investigation: How China rules the waves',
 
   // summary === standfirst (Summary is what the content API calls it)
-  summary: 'Beijing has spent billions expanding its commercial operations to secure sea lanes and establish itself as a maritime power',
+  summary: 'Beijing has spent billions expanding its ports network to secure sea lanes and establish itself as a maritime power',
 
   topic: {
-    name: 'China???',
-    url: 'https://www.ft.com/???',
+    name: 'The Big Read',
+    url: 'https://www.ft.com/comment/the-big-read',
   },
 
   // relatedArticle: {
@@ -37,10 +37,10 @@ export default () => ({ // eslint-disable-line
   // Byline can by a plain string, markdown, or array of authors
   // if array of authors, url is optional
   byline: [
-    { name: 'James Kynge', url: '/foo/bar' },
-    { name: 'Amy Kazmin', url: '/foo/bar'  },
-    { name: 'Farhan Bokhari', url: '/foo/bar'  },
-    { name: 'Chris Campbell', url: '/foo/bar'  },
+    { name: 'James Kynge', url: 'https://www.ft.com/comment/columnists/james-kynge' },
+    { name: 'Chris Campbell', url: 'https://www.ft.com/stream/authorsId/YjEwZjcxNDktMGNkYy00MzE4LThjYjgtNTY4NDFmNmY2MWRj-QXV0aG9ycw=='  },
+    { name: 'Amy Kazmin', url: 'https://www.ft.com/stream/authorsId/Q0ItMDAwMDc5Mw==-QXV0aG9ycw=='  },
+    { name: 'Farhan Bokhari', url: 'https://www.ft.com/stream/authorsId/Q0ItMDAwMDYyNw==-QXV0aG9ycw=='  },
 
 
   ],
