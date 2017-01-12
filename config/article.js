@@ -1,11 +1,11 @@
 export default () => ({ // eslint-disable-line
 
   // link file UUID
-  id: '',
+  id: '057a9d3c-d827-11e6-944b-e7eb37a6aa8e',
 
   // canonical URL of the published page
   // https://ig.ft.com/sites/chinese-shipping get filled in by the ./configure script
-  url: 'https://ig.ft.com/sites/chinese-shipping',
+  url: 'https://ig.ft.com/sites/china-ports',
 
   // To set an exact publish date do this:
   //       new Date('2016-05-17T17:11:22Z')
@@ -17,8 +17,8 @@ export default () => ({ // eslint-disable-line
   summary: 'FT investigation: Beijing has spent billions expanding its ports network to secure sea lanes and establish itself as a maritime power',
 
   topic: {
-    name: 'China',
-    url: 'to come...',
+    name: 'Beijing\'s global power play',
+    url: 'https://www.ft.com/topics/themes/China_Politics_&_Policy',
   },
 
   // relatedArticle: {
@@ -29,7 +29,7 @@ export default () => ({ // eslint-disable-line
   mainImage: {
     title: '',
     description: '',
-    url: '',
+    url: 'https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fft-ig-content-prod.s3.amazonaws.com%2Fv1%2Fft-interactive%2Fchinese-shipping%2Fimages%2Fchinese_shipping_master_MOBILE.jpg?source=url-builder',
     width: 2048, // ensure correct width
     height: 1152, // ensure correct height
   },
