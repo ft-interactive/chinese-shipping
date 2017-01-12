@@ -9,16 +9,16 @@ export default () => ({ // eslint-disable-line
 
   // To set an exact publish date do this:
   //       new Date('2016-05-17T17:11:22Z')
-  publishedDate: new Date('2017-01-10T05:30:00Z'),
+  publishedDate: new Date('2017-01-12T13:00:00Z'),
 
-  headline: 'FT investigation: How China rules the waves',
+  headline: 'How China rules the waves',
 
   // summary === standfirst (Summary is what the content API calls it)
-  summary: 'Beijing has spent billions expanding its ports network to secure sea lanes and establish itself as a maritime power',
+  summary: 'FT investigation: Beijing has spent billions expanding its ports network to secure sea lanes and establish itself as a maritime power',
 
   topic: {
-    name: 'The Big Read',
-    url: 'https://www.ft.com/comment/the-big-read',
+    name: 'China',
+    url: 'to come...',
   },
 
   // relatedArticle: {
@@ -46,10 +46,10 @@ export default () => ({ // eslint-disable-line
   ],
 
   // Appears in the HTML <title>
-  title: '',
+  title: 'How China rules the waves',
 
   // meta data
-  description: '',
+  description: 'FT investigation: Beijing has spent billions expanding its ports network to secure sea lanes and establish itself as a maritime power',
 
   /*
   TODO: Select Twitter card type -
