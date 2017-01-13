@@ -1,6 +1,6 @@
 # [chinese-shipping](https://ig.ft.com/sites/chinese-shipping)
 
-A [Big Read](https://www.ft.com/comment/the-big-read) story about [Chinese martitime ambitions](https://ig.ft.com/sites/china-ports/) with responive graphics by [Chris Campbell](https://www.ft.com/stream/authorsId/YjEwZjcxNDktMGNkYy00MzE4LThjYjgtNTY4NDFmNmY2MWRj-QXV0aG9ycw==).
+A [Big Read](https://www.ft.com/comment/the-big-read) story about [Chinese martitime ambitions](https://ig.ft.com/sites/china-ports/) with responsive graphics by [Chris Campbell](https://www.ft.com/stream/authorsId/YjEwZjcxNDktMGNkYy00MzE4LThjYjgtNTY4NDFmNmY2MWRj-QXV0aG9ycw==).
 
 > 
 
